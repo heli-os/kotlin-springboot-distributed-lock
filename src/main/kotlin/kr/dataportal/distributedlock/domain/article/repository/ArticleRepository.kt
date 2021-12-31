@@ -1,6 +1,6 @@
-package kr.dataportal.distributedlock.domain.account.repository
+package kr.dataportal.distributedlock.domain.article.repository
 
-import kr.dataportal.distributedlock.domain.account.entity.Article
+import kr.dataportal.distributedlock.domain.article.entity.Article
 import org.springframework.stereotype.Repository
 import java.util.concurrent.atomic.AtomicLong
 

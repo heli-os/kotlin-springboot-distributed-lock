@@ -1,7 +1,7 @@
-package kr.dataportal.distributedlock.domain.account.service
+package kr.dataportal.distributedlock.domain.article.service
 
-import kr.dataportal.distributedlock.domain.account.entity.Article
-import kr.dataportal.distributedlock.domain.account.repository.ArticleRepository
+import kr.dataportal.distributedlock.domain.article.entity.Article
+import kr.dataportal.distributedlock.domain.article.repository.ArticleRepository
 import kr.dataportal.distributedlock.infrastructure.lock.DistributedLock
 import kr.dataportal.distributedlock.utils.notNull
 import org.slf4j.Logger

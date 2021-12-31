@@ -1,4 +1,4 @@
-package kr.dataportal.distributedlock.domain.account.entity
+package kr.dataportal.distributedlock.domain.article.entity
 
 import kr.dataportal.distributedlock.utils.lateInit
 import kr.dataportal.distributedlock.utils.notNull
