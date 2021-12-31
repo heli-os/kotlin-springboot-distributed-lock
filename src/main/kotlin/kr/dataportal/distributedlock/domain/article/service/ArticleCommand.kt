@@ -27,7 +27,7 @@ class ArticleCommand(
 
 
     @DistributedLock(
-        name = ARTICLE_CREATE_LOCK_PREFIX,
+        name = ARTICLE_UPDATE_LOCK_PREFIX,
         key = [
             "#articleId"
         ]
@@ -45,6 +45,6 @@ class ArticleCommand(
 
     companion object {
         private val log: Logger = LoggerFactory.getLogger(ArticleCommand::class.java)
-        private const val ARTICLE_CREATE_LOCK_PREFIX = "article-create-lock"
+        private const val ARTICLE_UPDATE_LOCK_PREFIX = "article-update-lock"
     }
 }
